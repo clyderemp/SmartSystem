@@ -1,0 +1,87 @@
+GeneratorModel for yakindu::java {
+
+	//Smart Hub Code Generator
+	statechart SmartHubSystem{
+
+		feature Outlet {
+			targetProject = "SmartSystemProject"
+			targetFolder = "src"
+		}
+		feature Naming {
+			basePackage =  "smarthub.sc" 
+		}
+		feature GeneralFeatures {
+			TimerService = true
+			synchronized = true
+		}
+		
+	}
+	
+	//Smart Fire Code Generator
+	statechart SmartFireSystem{
+
+		feature Outlet {
+			targetProject = "SmartSystemProject"
+			targetFolder = "src"
+		}
+		feature Naming {
+			basePackage =  "smarthub.sc" 
+		}
+		feature GeneralFeatures {
+			TimerService = true
+			synchronized = true
+		}
+	}
+	
+	//Smart TV Code Generator
+	statechart SmartTVSystem{
+
+		feature Outlet {
+			targetProject = "SmartSystemProject"
+			targetFolder = "src"
+		}
+		feature Naming {
+			basePackage =  "smarthub.sc" 
+		}
+		feature GeneralFeatures {
+			TimerService = true
+			synchronized = true
+		}
+		
+	}
+	
+	//SMART LIGHT CODE GENERATOR
+	
+	statechart SmartLightSystem{
+
+		feature Outlet {
+			targetProject = "SmartSystemProject"
+			targetFolder = "src"
+		}
+		feature Naming {
+			basePackage =  "smarthub.sc" 
+		}
+		feature GeneralFeatures {
+			TimerService = true
+			synchronized = true
+		}
+		
+	}
+	
+	statechart LED{
+
+		feature Outlet {
+			targetProject = "SmartSystemProject"
+			targetFolder = "src"
+		}
+		feature Naming {
+			basePackage =  "smarthub.sc" 
+		}
+		feature GeneralFeatures {
+			TimerService = true
+			synchronized = true
+		}
+		
+	}
+	
+}
